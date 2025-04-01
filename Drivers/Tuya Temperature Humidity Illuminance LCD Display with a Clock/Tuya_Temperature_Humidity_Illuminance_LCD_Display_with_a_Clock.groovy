@@ -122,6 +122,7 @@ metadata {
         fingerprint profileId:'0104', endpointId:'01', inClusters:'0000,0004,0005,EF00', outClusters:'0019,000A', model:'TS0601', manufacturer:'_TZE200_pisltm67', deviceJoinName: 'AUBESS Light Sensor S-LUX-ZB'
         fingerprint profileId:'0104', endpointId:'01', inClusters:'0000,0004,0005,EF00', outClusters:'0019,000A', model:'TS0601', manufacturer:'_TYST11_pisltm67', deviceJoinName: 'AUBESS Light Sensor S-LUX-ZB'
         fingerprint profileId:'0104', endpointId:'01', inClusters:'0001,0500,0000',      outClusters:'0019,000A', model:'TS0601', manufacturer:'_TZE200_pay2byax', deviceJoinName: 'Tuya Contact and Illuminance Sensor'
+        fingerprint profileId:'0104', endpointId:'01', inClusters:'0001,0003,0402,0405,E002,0000', outClusters:'0003,0019,000A', model:'TS0201', manufacturer:'_TZ3000_1o6x1bl0', deviceJoinName: 'Tuya temperature and humidity sensor RCTW1Z'
         fingerprint profileId:'0104', endpointId:'01', inClusters:'0001,0003,0402,0405,E002,0000', outClusters:'0003,0019,000A', model:'TS0201', manufacturer:'_TZ3000_itnrsufe', deviceJoinName: 'Tuya temperature and humidity sensor RCTW1Z'
         fingerprint profileId:'0104', endpointId:'01', inClusters:'0001,0003,0402,0405,E002,0000', outClusters:'0003,0019,000A', model:'TS0201', manufacturer:'_TZ3000_ywagc4rj', deviceJoinName: 'Tuya temperature and humidity sensor'       // https://community.hubitat.com/t/release-tuya-temperature-humidity-illuminance-lcd-display-with-a-clock/88093/211?u=kkossev
         fingerprint profileId:'0104', endpointId:'01', inClusters:'0001,0402,0405,EF00,0000',      outClusters:'0019,000A',      model:'TS0201', manufacturer:'_TZ3210_ncw88jfq', deviceJoinName: 'Tuya temperature and humidity sensor'       // https://community.hubitat.com/t/release-tuya-temperature-humidity-illuminance-lcd-display-with-a-clock/88093/211?u=kkossev
@@ -316,6 +317,7 @@ metadata {
     '_TYZB01_4mdqxxnn'  : 'TS0222_2',           // illuminance only sensor
     '_TZ3000_kky16aay'  : 'TS0222_Soil',        // https://community.hubitat.com/t/release-tuya-temperature-humidity-illuminance-lcd-display-with-a-clock-w-healthstatus/88093/535?u=kkossev
     '_TZE200_pay2byax'  : 'TS0601_Contact',     // Contact and illuminance sensor
+    '_TZ3000_1o6x1bl0'  : 'TS0201_TH',          // Temperature and humidity sensor; // reports both battery voltage and perceintage; cluster 0xE002, attr 0xE00B: 0-Celsius, 1: Fahrenheit ( 0x30 ENUM)
     '_TZ3000_itnrsufe'  : 'TS0201_TH',          // Temperature and humidity sensor; // reports both battery voltage and perceintage; cluster 0xE002, attr 0xE00B: 0-Celsius, 1: Fahrenheit ( 0x30 ENUM)
     '_TZ3000_ywagc4rj'  : 'TS0201_TH',          // https://community.hubitat.com/t/release-tuya-temperature-humidity-illuminance-lcd-display-with-a-clock/88093/210?u=kkossev
     '_TZ3210_ncw88jfq'  : 'TS0201_TH',          // https://community.hubitat.com/t/release-tuya-temperature-humidity-illuminance-lcd-display-with-a-clock-w-healthstatus/88093/436?u=kkossev
